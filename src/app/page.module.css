@@ -1,0 +1,38 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+  margin: 0 auto;
+  width: 90vw;
+  padding: 0 16px 0 16px;
+}
+
+.square, .special {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+ 
+  border-radius: 8px;
+}
+
+.square {
+   background-color: #000f89;
+}
+
+.special {
+  background-color: #ff5722;
+}
+
+.span {
+  color: white;
+  padding: 16px;
+}
